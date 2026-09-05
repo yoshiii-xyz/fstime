@@ -3,7 +3,7 @@
 fstime profiles observable local filesystem traversal work so large-tree
 performance reports do not imply kernel-level measurements.
 
-Status: 0.1.0 implementation pending release evidence.
+Status: released v0.1.0.
 
 CI: https://github.com/joshiii-xyz/fstime/actions
 
@@ -53,34 +53,3 @@ were not invoked.
 
 The profiler reads metadata and symlink targets only. It does not open file
 contents, execute programs, modify trees, flush caches, or upload data.
-Reports include the supplied root path and directory names.
-
-## Limits and non-goals
-
-See [`docs/limits.md`](docs/limits.md). Linux is the only release-tested
-platform. This is not a GUI, kernel profiler, monitoring platform, or build
-system performance oracle.
-
-## Testing and development
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`docs/release.md`](docs/release.md)
-for the verified command set.
-
-## Research
-
-See [`docs/research.md`](docs/research.md) for the filesystem API source trail
-and the distinction between documented facts and design inference.
-
-## Release and support status
-
-The 0.1.0 release is pending local and hosted evidence. The release record
-will be updated only after the exact package, checksum, docs.rs, CI, security,
-CodeQL, tag package, and fresh-install checks pass.
-
-## Contributing
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md).
-
-## License
-
-MIT. See [`LICENSE`](LICENSE).
