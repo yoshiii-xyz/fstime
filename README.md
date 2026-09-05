@@ -3,7 +3,7 @@
 fstime profiles observable local filesystem traversal work so large-tree
 performance reports do not imply kernel-level measurements.
 
-Status: released v0.1.0.
+Status: 0.1.0 implementation pending release evidence.
 
 CI: https://github.com/joshiii-xyz/fstime/actions
 
