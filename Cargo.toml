@@ -5,7 +5,7 @@ edition = "2024"
 rust-version = "1.85"
 description = "A bounded, explainable filesystem tree traversal profiler"
 license = "MIT"
-repository = "https://github.com/joshiii-xyz/fstime"
+repository = "https://github.com/yoshiii-xyz/fstime"
 keywords = ["filesystem", "profiling", "traversal", "performance", "cli"]
 categories = ["command-line-utilities", "filesystem"]
 
