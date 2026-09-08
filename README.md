@@ -5,7 +5,7 @@ performance reports do not imply kernel-level measurements.
 
 Status: 0.1.0 implementation pending release evidence.
 
-CI: https://github.com/joshiii-xyz/fstime/actions
+CI: https://github.com/yoshiii-xyz/fstime/actions
 
 ## Install
 
